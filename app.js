@@ -44,7 +44,7 @@ var handleReset = () => {
     timerID = null;
     startBtn.disabled = false;
     pauseBtn.disabled = true;
-    counter.textContent = 0;
+    seconds = 0;
 }
 
 startBtn.addEventListener("click", handleStart);
